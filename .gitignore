@@ -1,0 +1,13 @@
+ViewHelper/.DS_Store
+*.DS_Store
+.DS_Store
+ViewHelper.xcworkspace/
+Pods/
+Cartfile
+Cartfile.resolved
+ViewHelper.xcodeproj/xcuserdata/
+xcuserdata/
+Carthage/Checkouts
+Carthage/Build/iOS/*.bcsymbolmap
+
+ViewHelper.xcodeproj/project.xcworkspace/xcshareddata/
