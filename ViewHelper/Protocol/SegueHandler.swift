@@ -1,6 +1,6 @@
 //
 //  SegueHandler.swift
-//  ACEApp
+//  Devarshi Kulshreshtha (devarshi.kulshreshtha@gmail.com)
 //
 // Shamelessly copied from - https://www.bignerdranch.com/blog/using-swift-enumerations-makes-segues-safer/
 

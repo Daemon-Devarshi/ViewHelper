@@ -1,6 +1,6 @@
 //
 //  Reusable.swift
-//  ACEApp
+//  Devarshi Kulshreshtha (devarshi.kulshreshtha@gmail.com)
 //
 // Shamelessly copied from http://alisoftware.github.io/swift/generics/2016/01/06/generic-tableviewcells/
 

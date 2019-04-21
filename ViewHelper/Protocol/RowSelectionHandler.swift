@@ -1,6 +1,6 @@
 //
 //  RowSelectionHandler.swift
-//  ACEApp
+//  Devarshi Kulshreshtha (devarshi.kulshreshtha@gmail.com)
 //
 
 import Foundation
