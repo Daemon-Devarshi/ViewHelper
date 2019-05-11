@@ -10,7 +10,7 @@ public protocol ViewControllerPresenter {
 }
 
 public extension ViewControllerPresenter where Self: UIViewController {
-    public func presentAsRoot() {
+     func presentAsRoot() {
         UIApplication.shared.keyWindow?.rootViewController = self
     }
 }

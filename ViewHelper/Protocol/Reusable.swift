@@ -11,7 +11,7 @@ public protocol Reusable: class {
 }
 
 public extension Reusable {
-    public static var reuseIdentifier: String {
+     static var reuseIdentifier: String {
         // I like to use the class's name as an identifier
         // so this makes a decent default value.
         return String(describing: Self.self)

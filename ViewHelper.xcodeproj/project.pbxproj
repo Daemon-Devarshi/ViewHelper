@@ -19,12 +19,12 @@
 		63252766207BAE8400C0780B /* StoryboardIdentifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6325275F207BAE8400C0780B /* StoryboardIdentifiable.swift */; };
 		63252767207BAE8400C0780B /* ViewControllerPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63252760207BAE8400C0780B /* ViewControllerPresenter.swift */; };
 		6325276A207BAF2200C0780B /* FormTableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63252769207BAF2200C0780B /* FormTableViewModel.swift */; };
-		6325276D207BBF1000C0780B /* ModelHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6325276C207BBF1000C0780B /* ModelHelper.framework */; };
 		636FC0E7208BA832007BF600 /* UIResponder+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636FC0E6208BA832007BF600 /* UIResponder+Utilities.swift */; };
 		636FC0E9208BA85C007BF600 /* UIView+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636FC0E8208BA85C007BF600 /* UIView+Utilities.swift */; };
 		63CDA331207A8C6300C72530 /* ViewHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63CDA327207A8C6300C72530 /* ViewHelper.framework */; };
 		63CDA336207A8C6300C72530 /* ViewHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CDA335207A8C6300C72530 /* ViewHelperTests.swift */; };
 		63CDA338207A8C6300C72530 /* ViewHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 63CDA32A207A8C6300C72530 /* ViewHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6F658EC228713F90022D62D /* String+ModelUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F658EB228713F90022D62D /* String+ModelUtilities.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +50,6 @@
 		6325275F207BAE8400C0780B /* StoryboardIdentifiable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardIdentifiable.swift; sourceTree = "<group>"; };
 		63252760207BAE8400C0780B /* ViewControllerPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerPresenter.swift; sourceTree = "<group>"; };
 		63252769207BAF2200C0780B /* FormTableViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormTableViewModel.swift; sourceTree = "<group>"; };
-		6325276C207BBF1000C0780B /* ModelHelper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ModelHelper.framework; path = Carthage/Build/iOS/ModelHelper.framework; sourceTree = "<group>"; };
 		636FC0E6208BA832007BF600 /* UIResponder+Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIResponder+Utilities.swift"; sourceTree = "<group>"; };
 		636FC0E8208BA85C007BF600 /* UIView+Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Utilities.swift"; sourceTree = "<group>"; };
 		63CDA327207A8C6300C72530 /* ViewHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ViewHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -59,6 +58,7 @@
 		63CDA330207A8C6300C72530 /* ViewHelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViewHelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63CDA335207A8C6300C72530 /* ViewHelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewHelperTests.swift; sourceTree = "<group>"; };
 		63CDA337207A8C6300C72530 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6F658EB228713F90022D62D /* String+ModelUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+ModelUtilities.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +66,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6325276D207BBF1000C0780B /* ModelHelper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,6 +92,7 @@
 		63252754207BAE7700C0780B /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				D6F658EB228713F90022D62D /* String+ModelUtilities.swift */,
 				63252755207BAE7700C0780B /* Bool+ViewUtilities.swift */,
 				63252756207BAE7700C0780B /* UIViewController+Utilities.swift */,
 				636FC0E6208BA832007BF600 /* UIResponder+Utilities.swift */,
@@ -126,7 +126,6 @@
 		6325276B207BBF0F00C0780B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6325276C207BBF1000C0780B /* ModelHelper.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -233,10 +232,12 @@
 				TargetAttributes = {
 					63CDA326207A8C6300C72530 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 					};
 					63CDA32F207A8C6300C72530 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -294,6 +295,7 @@
 				63252757207BAE7700C0780B /* Bool+ViewUtilities.swift in Sources */,
 				63252758207BAE7700C0780B /* UIViewController+Utilities.swift in Sources */,
 				63252753207BAE6700C0780B /* KeyboardDismissController.swift in Sources */,
+				D6F658EC228713F90022D62D /* String+ModelUtilities.swift in Sources */,
 				6325276A207BAF2200C0780B /* FormTableViewModel.swift in Sources */,
 				636FC0E7208BA832007BF600 /* UIResponder+Utilities.swift in Sources */,
 			);
@@ -454,7 +456,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = D.ViewHelper;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -478,7 +480,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = D.ViewHelper;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -492,7 +494,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = D.ViewHelperTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -506,7 +508,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = D.ViewHelperTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
