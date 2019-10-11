@@ -8,11 +8,12 @@
   "tvOS" : [
 
   ],
-  "commitish" : "ae96418ea695e926ace54cee07f35b25ac886ec6",
+  "commitish" : "9d3b695a80d5f7372c16dfaa3fd1ca5dfddc8acf",
   "iOS" : [
     {
       "name" : "ModelHelper",
-      "hash" : "552893200326e8aaa82c64d9e7cd146af1976d3fff593acbf08e40bade9d5a02"
+      "hash" : "de7d8ec0a045b82b5a4bc6018f215bb6c8c4c7775a0a0f582fcbb078a9e9e1b5",
+      "swiftToolchainVersion" : "5.1 (swiftlang-1100.0.270.13 clang-1100.0.33.7)"
     }
   ]
 }
