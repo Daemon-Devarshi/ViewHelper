@@ -12,8 +12,8 @@
   "iOS" : [
     {
       "name" : "ModelHelper",
-      "hash" : "de7d8ec0a045b82b5a4bc6018f215bb6c8c4c7775a0a0f582fcbb078a9e9e1b5",
-      "swiftToolchainVersion" : "5.1 (swiftlang-1100.0.270.13 clang-1100.0.33.7)"
+      "hash" : "0c97a26c64f11639cf899d5e70f585af0331406c9202464f89ffc4b1a5a32043",
+      "swiftToolchainVersion" : "5.1.2 (swiftlang-1100.0.278 clang-1100.0.33.9)"
     }
   ]
 }
