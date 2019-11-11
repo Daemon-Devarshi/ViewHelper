@@ -1,18 +1,9 @@
 {
-  "Mac" : [
-
-  ],
-  "watchOS" : [
-
-  ],
-  "tvOS" : [
-
-  ],
   "commitish" : "9d3b695a80d5f7372c16dfaa3fd1ca5dfddc8acf",
   "iOS" : [
     {
       "name" : "ModelHelper",
-      "hash" : "0c97a26c64f11639cf899d5e70f585af0331406c9202464f89ffc4b1a5a32043",
+      "hash" : "d64e27689766b6e02783a8ef63e5e2cb6bf9dcb348322056d57ed35c9ef5934a",
       "swiftToolchainVersion" : "5.1.2 (swiftlang-1100.0.278 clang-1100.0.33.9)"
     }
   ]

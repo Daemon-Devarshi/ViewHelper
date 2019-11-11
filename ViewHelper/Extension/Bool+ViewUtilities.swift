@@ -6,7 +6,7 @@
 import UIKit
 
 public extension Bool {
-    public func cellSelectionAccessory() -> UITableViewCellAccessoryType {
+    public func cellSelectionAccessory() -> UITableViewCell.AccessoryType {
         if self {
             return .checkmark
         }

@@ -39,9 +39,9 @@ public extension AllowsImagePick where Self: UIViewController {
     }
     func openCamera()
     {
-        if(UIImagePickerController .isSourceTypeAvailable(UIImagePickerControllerSourceType.camera))
+        if(UIImagePickerController .isSourceTypeAvailable(UIImagePickerController.SourceType.camera))
         {
-            imagePickerController.sourceType = UIImagePickerControllerSourceType.camera
+            imagePickerController.sourceType = UIImagePickerController.SourceType.camera
             imagePickerController.allowsEditing = true
             self.present(imagePickerController, animated: true, completion: nil)
         }
@@ -55,7 +55,7 @@ public extension AllowsImagePick where Self: UIViewController {
     
     func openGallery()
     {
-        imagePickerController.sourceType = UIImagePickerControllerSourceType.photoLibrary
+        imagePickerController.sourceType = UIImagePickerController.SourceType.photoLibrary
         imagePickerController.allowsEditing = true
         self.present(imagePickerController, animated: true, completion: nil)
     }
