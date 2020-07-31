@@ -13,7 +13,7 @@ public protocol AllowsImagePick {
 }
 
 public extension AllowsImagePick where Self: UIViewController {
-    public func presentImagePickOptions(sender: UIView) {
+    func presentImagePickOptions(sender: UIView) {
         let imagePickOptionsController = UIAlertController(title: NSLocalizedString("Choose Image", comment: ""), message: nil, preferredStyle: .actionSheet)
         imagePickOptionsController.addAction(UIAlertAction(title: NSLocalizedString("Camera", comment: ""), style: .default, handler: { _ in
             self.openCamera()

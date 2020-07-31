@@ -8,7 +8,7 @@
 import UIKit
 
 public extension UIView {
-    public func frame(withRespectTo topMostView: UIView, currentFrame: CGRect) -> CGRect? {
+    func frame(withRespectTo topMostView: UIView, currentFrame: CGRect) -> CGRect? {
         if let superView = self.superview {
             if superView == topMostView {
                 return currentFrame
