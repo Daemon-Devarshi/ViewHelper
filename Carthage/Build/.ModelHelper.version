@@ -1,19 +1,19 @@
 {
-  "Mac" : [
-
-  ],
-  "watchOS" : [
-
-  ],
-  "tvOS" : [
-
-  ],
   "commitish" : "9d3b695a80d5f7372c16dfaa3fd1ca5dfddc8acf",
   "iOS" : [
     {
+      "swiftToolchainVersion" : "5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)",
+      "hash" : "770b7a868f681c2a01e5d18a142e1d5ce1a033b44ecc7a46c76d12b0a16c63d7",
       "name" : "ModelHelper",
-      "hash" : "1c51f4e4988daccd8267be7b6836f619fd8e080ed2c4ff800d91934456e1c5f9",
-      "swiftToolchainVersion" : "5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)"
+      "container" : "ModelHelper.xcframework",
+      "identifier" : "ios-arm64"
+    },
+    {
+      "swiftToolchainVersion" : "5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)",
+      "hash" : "a6a333918124300c0e23d02f32738a7d4e887fd1cefde666565eb25642255b16",
+      "name" : "ModelHelper",
+      "container" : "ModelHelper.xcframework",
+      "identifier" : "ios-arm64_x86_64-simulator"
     }
   ]
 }
